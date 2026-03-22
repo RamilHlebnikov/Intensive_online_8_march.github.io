@@ -474,7 +474,6 @@
         top: -120px;
         left: auto;
         right: 0;
-        transform: none !important;
         filter: drop-shadow(0 15px 20px rgba(255, 122, 158, 0.6));
     }
 
@@ -665,7 +664,6 @@
     .program__images {
         width: 46px;
         height: 46px;
-        transform: none !important;
         filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
     }
 
@@ -2193,7 +2191,6 @@
         top: -150px;
         left: auto;
         right: 0;
-        transform: none !important;
         filter: drop-shadow(0 15px 20px rgba(255, 122, 158, 0.6));
     }
 
@@ -2375,7 +2372,6 @@
     .program__images {
         width: 60px;
         height: 60px;
-        transform: none !important;
         flex-shrink: 0;
         filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
     }
@@ -3663,7 +3659,6 @@
         top: -50px;
         width: 35%;
         z-index: 2;
-        transform: none !important;
         filter: drop-shadow(0 15px 20px rgba(255, 122, 158, 0.6));
     }
 
@@ -3845,7 +3840,6 @@
         width: 55px;
         height: 55px;
         flex-shrink: 0;
-        transform: none !important;
         filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
     }
 
@@ -4515,7 +4509,6 @@
 
     .bx.bxs-cookie {
         font-size: 50px;
-        transform: none !important;
     }
 
     .cookie__container--label {

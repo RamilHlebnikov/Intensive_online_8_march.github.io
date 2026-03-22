@@ -1045,6 +1045,7 @@ html {
     box-shadow: 0 10px 20px rgba(255, 122, 158, 0.4);
     border: 2px solid var(--secondary-color);
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .pricing__content--card:hover {
@@ -1821,6 +1822,8 @@ html {
     padding: 20px;
     z-index: 9999;
     pointer-events: none;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
 }
 
 .modal-overlay.is-open {
