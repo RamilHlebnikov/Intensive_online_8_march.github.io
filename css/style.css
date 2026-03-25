@@ -343,7 +343,7 @@ html {
     visibility: hidden;
 }
 
-/* Когда меню открыто - показан крестик, скрыт бургер */
+/* Когда меню открыто - показан крестик, а бургер скрыт */
 .burger-menu.active .menu-icon {
     opacity: 0;
     visibility: hidden;
@@ -952,7 +952,7 @@ html {
     transform: translateX(-50%);
 }
 
-/* Анимация при открытии - превращаем плюс в минус */
+/* Анимация при открытии - превращение плюса в минус */
 .accordion-toggle:checked + .accordion-label .icon::after {
     transform: translateX(-50%) rotate(90deg);
     opacity: 0;
@@ -2042,7 +2042,7 @@ html {
     transition: opacity 0.5s ease;
 }
 
-/* Когда checkbox отмечен - показываем эффект */
+/* Когда checkbox отмечен - показан эффект */
 .tulip-checkbox:checked ~ .tulip-container {
     opacity: 1;
 }
@@ -2062,7 +2062,6 @@ html {
     animation: none;
 }
 
-/* Включается анимация только когда checkbox отмечен */
 .tulip-checkbox:checked ~ .tulip-container .tulip {
     opacity: 0.9;
     animation-timing-function: ease-in-out;
